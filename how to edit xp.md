@@ -38,4 +38,26 @@ Available Values are
 In the shown Help Card, you can also view the general usage of this Command.
 We will break down the Usage Example a bit, do it's easier to understand.
 
+> Usage Example
+- ``.xp editxp <factor> <amount>``
 
+``<factor>`` can be replaced with one of the Values shown above. This value will set which Value should be changed.
+
+``<amount>`` can be set to any Number higher than 1.
+
+> A Command executed in your Server could look like this
+- ``.xp editxp msg 50``
+- ``.xp editxp vcxp 20``
+- ``.xp editxp vcdivxp 60000``
+- ``.xp editxp gamexp 75``
+
+## Step 2: Edit a Value
+
+You can get started using the Command now.
+**NOTE**: You're not able to set a Value to any negative Number.
+
+Head over to your preferred Text Channel in your Server and make sure one of your Roles allows you to Manage the Server.
+If you do have ``MANAGE_SERVER`` Permissions, you're ready to go!
+You can use our Examples above or set your own Values.
+
+> If you have any other questions, feel free to join our [Support Server](https://discord.gg/ccTAnzw)!
