@@ -1,0 +1,42 @@
+[{
+    "title": "Welcome to the XP Tutorial",
+    "fields": [{
+        "title": "Introduction to this Thread",
+        "content": "Hey, and welcome to the official XP tutorial.\nHere you will learn how to successfully tailor XP to your server.\nWe'll also make XP easy to learn, so you can easily customize and add to your server in the future.",
+        "inline": true
+    }, {
+        "title": "Navigation",
+        "content": "To navigate this tutorial, simply use ⬅️ & ➡️ to switch pages.\nTo exit the tutorial, press the <:xp_cross:818532849690083339>."
+    }],
+    "image": "https://img.namespace.media/images/2021/05/10/Discord_LXN7ZDJIRc.png"
+}, {
+    "title": "XP Tutorial - Prefixes",
+    "fields": [{
+        "title": "Introduction to Prefixes",
+        "content": "Prefixes are the set of characters in front of a command that tell XP that you want to execute one.\n\nBy default the prefix of XP is set to \".xp \", but you can also simply mark XP to execute a command."
+    }, {
+        "title": "Customization",
+        "content": "If you want to change the prefix on the server, use the following command:\n\"\"\"md\n.xp prefix <your_new_prefix>\"\"\""
+    }],
+    "image": "https://img.namespace.media/images/2021/05/10/prefix.png"
+}, {
+    "title": "XP Tutorial - Module System",
+    "fields": [{
+        "title": "Introduction to Modules",
+        "content": "XP is divided into a few easy to understand modules to turn functions on or off.\n\ne.g. the module \"MessageXP\" controls if members get XP by writing messages in the server, while the \"Autonick\" module controls if the levels of the users are displayed in their nicknames."
+    }, {
+        "title": "Customization",
+        "content": "Anyone with the **MANAGE_GUILD** permission can modify modules without any problems, and thus determine how XP works on your server.\n\nThe following command is used for this purpose:\n\"\"\"md\n> List the current modules and settings\n.xp modules\n\n> Switch the setting of a module\n.xp module <module>\"\"\""
+    }],
+    "image": "https://img.namespace.media/images/2021/05/12/modules.png"
+}, {
+    "title": "XP Tutorial - Values System",
+    "fields": [{
+        "title": "Introduction to Values",
+        "content": "Just like modules, values allow you to customize XP to your server and application.\n\nValues, unlike modules, do not control functions, but the values that are distributed or used to make the functions work as they are supposed to.\n\nFor example, with the Values system we can set how much XP a member gets per message, how long cooldowns last between messages, how levels voice chat sessions are calculated, ..."
+    }, {
+        "title": "Customization",
+        "content": "Anyone with the **MANAGE_GUILD** permission can modify values without any problems, and thus determine how XP works on your server.\n\nThe following command is used for this purpose:\n\"\"\"md\n> List all currently set values\n.xp values\n\n> Set a value \n.xp value <value_name> <new_amount>\"\"\""
+    }],
+    "image": "https://img.namespace.media/images/2021/05/12/values.png"
+}]
