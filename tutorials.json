@@ -26,7 +26,7 @@
         "content": "XP is divided into a few easy to understand modules to turn functions on or off.\n\ne.g. the module \"MessageXP\" controls if members get XP by writing messages in the server, while the \"Autonick\" module controls if the levels of the users are displayed in their nicknames."
     }, {
         "title": "Customization",
-        "content": "Anyone with the **MANAGE_GUILD** permission can modify modules without any problems, and thus determine how XP works on your server.\n\nThe following command is used for this purpose:\n\"\"\"md\n> List the current modules and settings\n.xp modules\n\n> Switch the setting of a module\n.xp module <module>\"\"\""
+        "content": "Anyone with the **MANAGE_GUILD** permission can modify modules without any problems and thus determine how XP works on your server.\n\nThe following command is used for this purpose:\n\"\"\"md\n> List the current modules and settings\n.xp modules\n\n> Switch the setting of a module\n.xp module <module>\"\"\""
     }],
     "image": "https://img.namespace.media/images/2021/05/12/modules.png"
 }, {
@@ -36,7 +36,17 @@
         "content": "Just like modules, values allow you to customize XP to your server and application.\n\nValues, unlike modules, do not control functions, but the values that are distributed or used to make the functions work as they are supposed to.\n\nFor example, with the Values system we can set how much XP a member gets per message, how long cooldowns last between messages, how levels voice chat sessions are calculated, ..."
     }, {
         "title": "Customization",
-        "content": "Anyone with the **MANAGE_GUILD** permission can modify values without any problems, and thus determine how XP works on your server.\n\nThe following command is used for this purpose:\n\"\"\"md\n> List all currently set values\n.xp values\n\n> Set a value \n.xp value <value_name> <new_amount>\"\"\""
+        "content": "Anyone with the **MANAGE_GUILD** permission can modify values without any problems and thus determine how XP works on your server.\n\nThe following command is used for this purpose:\n\"\"\"md\n> List all currently set values\n.xp values\n\n> Set a value \n.xp value <value_name> <new_amount>\"\"\""
     }],
     "image": "https://img.namespace.media/images/2021/05/12/values.png"
+}, {
+    "title": "XP Tutorial - Levelroles",
+    "fields": [{
+        "title": "Introduction to Levelroles",
+        "content": "Levelroles can be used for many things by rewarding your users with Roles for specific levels. You could have unlockable channels, special events or even give them more Permissions as they progress with XP.\n\nAdditional to this, you can also set boosted roles, which will reward users with more XP. A specific percentage for this can be set as well."
+    }, {
+        "title": "Customization",
+        "content": "Anyone with the **MANAGE_GUILD** permission can create and remove roles, which will then be assigned to all users reaching the specific level.\n\nThe following command is used for this purpose:\n\"\"\"md\n> List all currently set roles\n.xp roles\n\n> Add a Levelrole \n.xp role set <@role> <level>\n\n> Remove a Levelrole \n.xp role remove <level>\n\n> Add a Boosted Role \n.xp role boost set <@role> <boost_percentage>\n\n> Remove a Boosted Role \n.xp role boost remove <@role>\"\"\""
+    }],
+    "image": "pls"
 }]
